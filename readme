@@ -21,4 +21,6 @@ github ssh
 
          git remote add origin git@github.com:**/***.git
 
-   7、将本地修改commit后就可以上传到远程repo      git push -u origin master
+   7、将本地修改commit后就可以上传到远程repo      
+	git push -u origin master
+	git pull -u roigin master
