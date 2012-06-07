@@ -1,1 +1,24 @@
-readme 
+
+Github 使用说明
+
+    以后所有的代码会上传到github，方便管理。记录一下github的使用方法：
+
+    1、在https://github.com/ 上注册
+
+    2、在linux环境下生成公钥， ssh-keygen -t rsa
+
+    3、将公钥拷贝至github中，见下图，需要将公钥所有内容拷贝，不要添加任何东西
+
+github ssh
+
+   4、公钥拷贝成功后， 键入 ssh -T git@github.com 会提示成功
+
+   5、在本机设置一些git基本属性git config --global user.name "username"
+
+         git config --global user.email "useremail"
+
+   6、然后就可以在git上create一个repository，随后在本机将想要上传的目录下键入 git init 同时设置远程的github repo
+
+         git remote add origin git@github.com:**/***.git
+
+   7、将本地修改commit后就可以上传到远程repo      git push -u origin master
