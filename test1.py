@@ -3,7 +3,7 @@
 import sys
 import os
 
-def main():
+def Main():
     sys.stdout.write("开始程序\n")
     i=10
     j=u'老梅花'
@@ -14,5 +14,5 @@ def main():
         print s+'\r'
     
 if __name__ == '__main__':
-    main()
+    Main()
 
